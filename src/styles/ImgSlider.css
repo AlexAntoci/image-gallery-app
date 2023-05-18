@@ -1,0 +1,11 @@
+.imgSlider {
+  margin: 5px 10px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  cursor: grab;
+}
+
+.imgInnerSlider {
+  display: flex;
+  gap: 10px;
+}

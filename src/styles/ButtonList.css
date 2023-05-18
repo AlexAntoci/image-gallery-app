@@ -1,0 +1,45 @@
+.buttonList {
+  position: fixed;
+  top: 80%;
+  left: 0;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 5;
+}
+
+.innerButtonList {
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.buttonListItem {
+  font-size: x-large;
+  opacity: 0.6;
+  border: none;
+  text-align: center;
+  background-color: #424242;
+  color: white;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+.buttonListItem:hover {
+  opacity: 1;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.searchItem {
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.searchIcon {
+  /*   background-color: #5f5f5f; */
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
